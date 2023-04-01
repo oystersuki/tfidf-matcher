@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "transformer-study"
+version = "0.1.0"
+description = ""
+authors = ["oystersuki <oystersuki0624@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "transformer_study"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mecab-python3 = "^1.0.6"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
